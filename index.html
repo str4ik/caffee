@@ -1,0 +1,416 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Наше кафе — домашняя еда на 190-м км · Сургут-Ноябрьск</title>
+  <meta name="description" content="Наше кафе в Когалыме: домашняя еда на 190-м километре трассы. Горячие обеды, завтраки, стоянка для фур. Работаем круглосуточно.">
+  <meta property="og:title" content="Наше кафе — домашняя еда на 190-м км">
+  <meta property="og:description" content="Горячий обед, завтрак и кофе в дорогу. Работаем круглосуточно, стоянка для фур.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥘</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ======================= ШАПКА ======================= -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo">
+        <span class="logo__mark">Н</span>
+        <span class="logo__text">
+          <strong>Наше кафе</strong>
+          <small>Сургут-Ноябрьск · 190 км</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#menu">Меню</a>
+        <a href="#combo">Комбо</a>
+        <a href="#about">О нас</a>
+        <a href="#contacts">Как доехать</a>
+      </nav>
+
+      <a href="tel:+79939470805" class="btn btn--small header__phone">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Позвонить
+      </a>
+
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ======================= ПЕРВЫЙ ЭКРАН ======================= -->
+    <section class="hero">
+      <div class="hero__bg" role="img" aria-label="Кафе у дороги вечером"></div>
+      <div class="hero__overlay"></div>
+      <div class="container hero__inner">
+        <p class="hero__eyebrow">Сургут-Ноябрьск · трасса · 190-й км</p>
+        <h1 class="hero__title">Домашняя еда<br>для тех, кто в дороге</h1>
+        <p class="hero__text">
+          Готовим вкусную домашнюю еду: супы, котлеты, гарниры и салаты.
+          Горячий обед, крепкий кофе, удобная заправка Дизеля рядом.
+        </p>
+        <div class="hero__actions">
+          <a href="#menu" class="btn btn--primary">Смотреть меню</a>
+          <a href="#contacts" class="btn btn--ghost">Как доехать</a>
+        </div>
+
+        <ul class="stats">
+          <li><strong>24/7</strong><span>открыто круглосуточно</span></li>
+          <li><strong>15 мин</strong><span>и обед на столе</span></li>
+          <li><strong>Сытно</strong><span>порции как дома</span></li>
+          <li><strong>АЗС</strong><span>удобная заправка дизелем возле кафе</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ======================= ПОЧЕМУ МЫ ======================= -->
+    <section class="section section--features">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Остановка, которую ждут</p>
+          <h2>Всё, что нужно дальнобойщику</h2>
+          <p class="section-head__text">Мы знаем, каково это — ехать сутками. Поэтому сделали кафе, в которое хочется заехать снова.</p>
+        </div>
+
+        <div class="features">
+          <article class="feature reveal">
+            <div class="feature__icon">🚛</div>
+            <h3>Стоянка для фур</h3>
+            <p>Место под фуру прямо у входа. Не надо искать, где встать, и бросать машину на обочине.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature__icon">🍲</div>
+            <h3>Горячее за 15 минут</h3>
+            <p>Сказал на входе — вышел с горячим обедом. Без долгого ожидания и без нервов.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature__icon">🥘</div>
+            <h3>Порции без обмана</h3>
+            <p>После обеда не хочется добавки. Так кормят дома — так кормим и мы.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature__icon">☕</div>
+            <h3>Кофе в дорогу</h3>
+            <p>Крепкий кофе с собой, чтобы хватило до следующей остановки.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= МЕНЮ ======================= -->
+    <section class="section section--menu" id="menu">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Меню</p>
+          <h2>Что у нас на столе</h2>
+          <p class="section-head__text">Супы, гарниры, горячее и салаты. Домашняя еда без сюрпризов в чеке.</p>
+        </div>
+
+        <div class="menu-tabs reveal" role="tablist" aria-label="Категории меню">
+          <button class="tab is-active" data-cat="soup" role="tab" aria-selected="true">Супы</button>
+          <button class="tab" data-cat="garnish" role="tab" aria-selected="false">Гарниры</button>
+          <button class="tab" data-cat="hot" role="tab" aria-selected="false">Горячее</button>
+          <button class="tab" data-cat="salad" role="tab" aria-selected="false">Салаты</button>
+          <button class="tab" data-cat="breakfast" role="tab" aria-selected="false">Завтраки</button>
+        </div>
+
+        <div class="menu-body reveal">
+
+          <!-- Супы -->
+          <div class="menu-cat is-active" data-cat="soup">
+            <ul class="dishes">
+              <li class="dish"><span class="dish__name">Суп-лапша</span><span class="dish__dots"></span><span class="dish__price">280 ₽</span></li>
+              <li class="dish"><span class="dish__name">Солянка</span><span class="dish__dots"></span><span class="dish__price">280 ₽</span></li>
+              <li class="dish"><span class="dish__name">Суп гороховый</span><span class="dish__dots"></span><span class="dish__price">280 ₽</span></li>
+              <li class="dish"><span class="dish__name">Борщ</span><span class="dish__dots"></span><span class="dish__price">280 ₽</span></li>
+            </ul>
+          </div>
+
+          <!-- Гарниры -->
+          <div class="menu-cat" data-cat="garnish">
+            <ul class="dishes">
+              <li class="dish"><span class="dish__name">Пюре картофельное</span><span class="dish__dots"></span><span class="dish__price">100 ₽</span></li>
+              <li class="dish"><span class="dish__name">Макароны</span><span class="dish__dots"></span><span class="dish__price">100 ₽</span></li>
+              <li class="dish"><span class="dish__name">Рис</span><span class="dish__dots"></span><span class="dish__price">100 ₽</span></li>
+              <li class="dish"><span class="dish__name">Гречка</span><span class="dish__dots"></span><span class="dish__price">100 ₽</span></li>
+            </ul>
+          </div>
+
+          <!-- Горячее -->
+          <div class="menu-cat" data-cat="hot">
+            <ul class="dishes">
+              <li class="dish"><span class="dish__name">Котлета куриная</span><span class="dish__dots"></span><span class="dish__price">160 ₽</span></li>
+              <li class="dish"><span class="dish__name">Окорочок запечённый</span><span class="dish__dots"></span><span class="dish__price">260 ₽</span></li>
+              <li class="dish"><span class="dish__name">Курочка в чесночном соусе</span><span class="dish__dots"></span><span class="dish__price">295 ₽</span></li>
+              <li class="dish"><span class="dish__name">Котлета говяжья <em>2 шт.</em></span><span class="dish__dots"></span><span class="dish__price">350 ₽</span></li>
+            </ul>
+          </div>
+
+          <!-- Салаты -->
+          <div class="menu-cat" data-cat="salad">
+            <ul class="dishes">
+              <li class="dish"><span class="dish__name">Салат «Крабовый»</span><span class="dish__dots"></span><span class="dish__price">130 ₽</span></li>
+              <li class="dish"><span class="dish__name">Свёкла с чесноком</span><span class="dish__dots"></span><span class="dish__price">90 ₽</span></li>
+              <li class="dish"><span class="dish__name">Салат капустный</span><span class="dish__dots"></span><span class="dish__price">95 ₽</span></li>
+            </ul>
+          </div>
+
+          <!-- Завтраки -->
+          <div class="menu-cat" data-cat="breakfast">
+            <ul class="dishes">
+              <li class="dish"><span class="dish__name">Каша рисовая</span><span class="dish__dots"></span><span class="dish__price">130 ₽</span></li>
+              <li class="dish"><span class="dish__name">Блинчики со сгущёнкой</span><span class="dish__dots"></span><span class="dish__price">110 ₽</span></li>
+              <li class="dish"><span class="dish__name">Яичница</span><span class="dish__dots"></span><span class="dish__price">160 ₽</span></li>
+              <li class="dish"><span class="dish__name">Блины со сметаной</span><span class="dish__dots"></span><span class="dish__price">110 ₽</span></li>
+            </ul>
+          </div>
+
+          <p class="menu-note">Цены указаны на 2026 год. Актуальные уточняйте по телефону.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= КОМБО ======================= -->
+    <section class="section section--combos" id="combo">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow eyebrow--light">Комбо</p>
+          <h2>Каждый день — новый обед</h2>
+          <p class="section-head__text">
+            Суп, гарнир, горячее и салат одним набором. Каждый день новый состав,
+            готовим за 15 минут. Хлеб и чай или кофе — уже в цене.
+          </p>
+        </div>
+
+        <div class="combos">
+          <article class="combo reveal">
+            <span class="combo__day">Combo 1</span>
+            <h3>Лапша, пюре и котлета</h3>
+            <ul class="combo__list">
+              <li>Суп-лапша</li>
+              <li>Пюре картофельное</li>
+              <li>Котлета куриная</li>
+              <li>Салат «Крабовый»</li>
+              <li class="combo__bonus">Чай или кофе на выбор</li>
+            </ul>
+            <p class="combo__price"><strong>670 ₽</strong></p>
+          </article>
+
+          <article class="combo reveal">
+            <span class="combo__day">Combo 2</span>
+            <h3>Солянка, макароны и окорочок</h3>
+            <ul class="combo__list">
+              <li>Солянка</li>
+              <li>Макароны</li>
+              <li>Окорочок запечённый</li>
+              <li>Свёкла с чесноком</li>
+              <li class="combo__bonus">Чай или кофе на выбор</li>
+            </ul>
+            <p class="combo__price"><strong>730 ₽</strong></p>
+          </article>
+
+          <article class="combo reveal">
+            <span class="combo__day">Combo 3</span>
+            <h3>Гороховый, рис и курочка</h3>
+            <ul class="combo__list">
+              <li>Суп гороховый</li>
+              <li>Рис</li>
+              <li>Курочка в чесночном соусе</li>
+              <li>Салат капустный</li>
+              <li class="combo__bonus">Чай или кофе на выбор</li>
+            </ul>
+            <p class="combo__price"><strong>770 ₽</strong></p>
+          </article>
+
+          <article class="combo reveal">
+            <span class="combo__day">Combo 4</span>
+            <h3>Борщ, гречка и говяжья котлета</h3>
+            <ul class="combo__list">
+              <li>Борщ</li>
+              <li>Гречка</li>
+              <li>Котлета говяжья</li>
+              <li>Свёкла с чесноком</li>
+              <li class="combo__bonus">Чай или кофе на выбор</li>
+            </ul>
+            <p class="combo__price"><strong>645 ₽</strong></p>
+          </article>
+        </div>
+
+        <p class="combos__note reveal">
+          С пятницы — по кругу. В каждом обеде: суп, гарнир, горячее, салат, хлеб
+          и чай или кофе на выбор — напиток уже в цене.
+        </p>
+
+        <div class="combos combos--two">
+          <article class="combo combo--breakfast reveal">
+            <span class="combo__day">Завтрак №1</span>
+            <h3>Каша и блины</h3>
+            <ul class="combo__list">
+              <li>Каша рисовая</li>
+              <li>Блинчики со сгущёнкой</li>
+              <li class="combo__bonus">Чай или кофе на выбор</li>
+            </ul>
+            <p class="combo__price"><strong>295 ₽</strong></p>
+          </article>
+
+          <article class="combo combo--breakfast reveal">
+            <span class="combo__day">Завтрак №2</span>
+            <h3>Яичница и блины</h3>
+            <ul class="combo__list">
+              <li>Яичница</li>
+              <li>Блины со сметаной</li>
+              <li class="combo__bonus">Чай или кофе на выбор</li>
+            </ul>
+            <p class="combo__price"><strong>325 ₽</strong></p>
+          </article>
+        </div>
+
+        <div class="combo-upsell reveal">
+          <p>
+            <strong>Чай или кофе — уже в цене.</strong>
+            Выбираете напиток на кассе, доплачивать не нужно. Скажите, какой обед берёте,
+            — остальное сделаем сами.
+          </p>
+          <a href="tel:+79939470805" class="btn btn--primary">Заказать обед</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= О НАС ======================= -->
+    <section class="section section--about" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">О нас</p>
+          <h2>Просто, сытно, без сюрпризов</h2>
+          <p class="section-head__text">
+            Мы не пытаемся удивить. Готовим обычную домашнюю еду — супы, котлеты, гарниры и салаты.
+            Всё своё, каждый день, круглосуточно.
+          </p>
+        </div>
+
+        <div class="duo">
+          <article class="duo__side duo__side--first reveal">
+            <p class="duo__label">Каждый день</p>
+            <h3>Готовим с утра</h3>
+            <p>Варим супы, жарим котлеты, тушим горячее. К обеду всё свежее и горячее, а не разогретое вчерашнее.</p>
+            <ul class="tags">
+              <li>Супы</li><li>Котлеты</li><li>Гарниры</li><li>Салаты</li><li>Блины</li>
+            </ul>
+          </article>
+
+          <article class="duo__side duo__side--second reveal">
+            <p class="duo__label">Круглосуточно</p>
+            <h3>Ночью тоже накормим</h3>
+            <p>Заехали в три часа ночи — суп и котлеты на месте. Работаем 24/7, без выходных и перерывов.</p>
+            <ul class="tags">
+              <li>24/7</li><li>Завтраки</li><li>Обеды</li><li>Чай</li><li>Кофе</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="hits reveal">
+          <article class="hit hit--soup">
+            <span class="hit__emoji">🍲</span>
+            <h3>Борщ</h3>
+            <p>Наваристый, со сметаной и зеленью. Хлеб на столе.</p>
+            <span class="hit__price">280 ₽</span>
+          </article>
+          <article class="hit hit--fire">
+            <span class="hit__emoji">🍖</span>
+            <h3>Котлета говяжья</h3>
+            <p>Две штуки на порцию. Берут с пюре или гречкой.</p>
+            <span class="hit__price">350 ₽</span>
+          </article>
+          <article class="hit hit--sweet">
+            <span class="hit__emoji">🥞</span>
+            <h3>Блины со сметаной</h3>
+            <p>Тонкие, домашние. Есть ещё со сгущёнкой.</p>
+            <span class="hit__price">110 ₽</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= КОНТАКТЫ ======================= -->
+    <section class="section section--contacts" id="contacts">
+      <div class="container contacts">
+        <div class="contacts__info reveal">
+          <p class="eyebrow eyebrow--light">Как доехать</p>
+          <h2>Заезжайте, мы рядом</h2>
+          <p class="contacts__lead">
+            Стоим прямо у трассы, на 190-м километре. Увидите тёплые окна и фуры у входа — значит, доехали.
+          </p>
+
+          <dl class="contacts__list">
+            <div>
+              <dt>Адрес</dt>
+              <!-- УТОЧНИТЬ точный адрес / километр -->
+              <dd>Сургут-Ноябрьск, 190-й км автодороги</dd>
+            </div>
+            <div>
+              <dt>Телефон</dt>
+              <dd><a href="tel:+79939470805">+7 (993) 947-08-05</a></dd>
+            </div>
+            <div>
+              <dt>Часы работы</dt>
+              <dd>Круглосуточно, без выходных</dd>
+            </div>
+            <div>
+              <dt>Рядом</dt>
+              <dd>Заправка с дизелем</dd>
+            </div>
+
+            
+          </dl>
+
+          <div class="contacts__actions">
+            <a href="tel:+79939470805" class="btn btn--primary">Позвонить</a>
+            <a href="https://yandex.ru/maps/?text=Когалым%20кафе%20190%20км" target="_blank" rel="noopener" class="btn btn--ghost-light">Открыть в Яндекс.Картах</a>
+          </div>
+        </div>
+
+        <div class="contacts__map reveal">
+          <div class="map-placeholder">
+            <div class="map-placeholder__pin">📍</div>
+            <p><strong>Наше кафе</strong><br>190-й км · Сургут-Ноябрьск</p>
+            <a href="https://yandex.ru/maps/?text=Когалым%20кафе%20190%20км" target="_blank" rel="noopener" class="map-placeholder__link">Проложить маршрут →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================= ПОДВАЛ ======================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="logo__mark">Н</span>
+        <div>
+          <strong>Наше кафе</strong>
+          <small>Сургут-Нояб · 190-й км</small>
+          <p>190-й км · Сургут-Ноябрьск · <strong>Дизель</strong></p>
+        </div>
+      </div>
+      <p class="footer__copy">© <span id="year">2026</span> Наше кафе. Домашняя еда на 190-м км.</p>
+      <a href="#top" class="footer__up">Наверх ↑</a>
+    </div>
+  </footer>
+
+  <!-- Плавающая кнопка звонка для телефона -->
+  <a href="tel:+79939470805" class="call-fab" aria-label="Позвонить">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
